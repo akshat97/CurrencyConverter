@@ -14,6 +14,7 @@
 		83C5D7C91E90D99900E05F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C5D7C71E90D99900E05F8A /* LaunchScreen.storyboard */; };
 		83C5D7D41E90D99900E05F8A /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C5D7D31E90D99900E05F8A /* CurrencyConverterTests.swift */; };
 		83C5D7DF1E90D99900E05F8A /* CurrencyConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C5D7DE1E90D99900E05F8A /* CurrencyConverterUITests.swift */; };
+		83C5D7ED1E90DA2100E05F8A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C5D7EC1E90DA2100E05F8A /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		83C5D7DA1E90D99900E05F8A /* CurrencyConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C5D7DE1E90D99900E05F8A /* CurrencyConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterUITests.swift; sourceTree = "<group>"; };
 		83C5D7E01E90D99900E05F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C5D7EC1E90DA2100E05F8A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				83C5D7C51E90D99900E05F8A /* Assets.xcassets */,
 				83C5D7C71E90D99900E05F8A /* LaunchScreen.storyboard */,
 				83C5D7CA1E90D99900E05F8A /* Info.plist */,
+				83C5D7EC1E90DA2100E05F8A /* SwiftyJSON.swift */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C5D7ED1E90DA2100E05F8A /* SwiftyJSON.swift in Sources */,
 				83C5D7C11E90D99900E05F8A /* ViewController.swift in Sources */,
 				83C5D7BF1E90D99900E05F8A /* AppDelegate.swift in Sources */,
 			);
